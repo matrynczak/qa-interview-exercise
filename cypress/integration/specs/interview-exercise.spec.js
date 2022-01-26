@@ -27,7 +27,7 @@ describe('Interview exercise for QA role at GP', () => {
 
   it('3 - adding selection to betslip', () => {
     // 1. please add any of selection (button with odds) to the betslip
-    // 2. assert selection added to betslip is from the save event as selected in the offer
+    // 2. assert selection added to betslip is from the same event as selected in the offer
   });
 
   it('4 - odds format switcher', () => {
