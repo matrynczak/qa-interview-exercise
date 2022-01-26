@@ -1,6 +1,13 @@
+Cypress.on('uncaught:exception', () => {
+  // returning false here prevents Cypress from failing the test
+  return false
+});
+
 describe('Interview exercise for QA role at GP', () => {
   // no need of creating separated file for selectors - you can put selectors directly in the tests
 
+  // sometimes may happen of need of adding one or all from the {scrollBehavior: false, force: true} to click() method -
+  // if element is covered by another one
 
   beforeEach(() => {
     // please open the page https://sports.williamhill.es/betting/es-es
@@ -8,7 +15,7 @@ describe('Interview exercise for QA role at GP', () => {
   });
 
   it('1 - open Futbol page', () => {
-    // 1. please open Futbol page (from left menu)
+    // 1. please open Futbol page (from Popular section of left menu)
     // 2. assert you're in the Futbol page - what is your idea for this assertion?
 
   });
