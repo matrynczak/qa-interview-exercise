@@ -1,0 +1,17 @@
+# dependencies
+/node_modules
+/chromeTemp
+/logs
+
+# testing
+/coverage
+cypress/videos
+cypress/screenshots
+cypress/reports
+
+# misc
+.DS_Store
+.idea
+
+npm-debug.log*
+
