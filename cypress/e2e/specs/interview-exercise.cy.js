@@ -11,7 +11,6 @@ describe('Interview exercise for QA role at GP', () => {
 
   beforeEach(() => {
     // please open the page https://sports.williamhill.es/betting/es-es
-
   });
 
   it('1 - open Futbol page', () => {
