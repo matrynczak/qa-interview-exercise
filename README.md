@@ -1,20 +1,25 @@
 # qa-interview-exercise
 
 
-Repo with Cypress exercise for QA candidate to Grand Parade.
+Repo with Cypress exercise for QA candidate.
 
 ##### Prerequisite:
     
-   Minimal version of Node is 10.17.0.
-   If you have an older version please install newer or use NVM to change the Node version.
+   Minimal version of Node is 14.0.0.
+   Use 
 
+            nvm use 
+
+    if you are not sure which Node you have. 
+
+   If you have an older version please install newer or use NVM to change the Node version.
 
 
 ##### Instructions:
   
   Please go to the file 
         
-            cypress/integration/specs/interview-exercise.spec.js
+            cypress/e2e/specs/interview-exercise.cy.js
 
   Inside this file there are instructions what to do inside this repo.
    
@@ -26,5 +31,5 @@ Repo with Cypress exercise for QA candidate to Grand Parade.
     
    2. To run the tests
    
-            npx cypress open
+            --- find the proper script in the package.json file and use it in the terminal
             
