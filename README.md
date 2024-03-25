@@ -17,9 +17,7 @@ Repo with Cypress exercise for QA candidate.
 
 ##### Instructions:
 
-  1.Switch on the branch `new_version`
-  
-  2.Please go to the file 
+  1.Please go to the file 
         
             cypress/e2e/specs/interview-exercise.cy.js
 
